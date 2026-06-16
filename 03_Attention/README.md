@@ -110,6 +110,17 @@ Key → What information do I contain?
 Value → Actual information I provide
 
 ---
+## Attention Flow
+
+```mermaid
+graph TD
+A[Input Embeddings] --> B[Generate Q K V]
+B --> C[QKᵀ]
+C --> D[Scale by √dk]
+D --> E[Softmax]
+E --> F[Multiply by V]
+F --> G[Attention Output]
+```
 
 # Attention Workflow
 
