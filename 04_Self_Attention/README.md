@@ -3,6 +3,32 @@
 > The mechanism that allows every token to interact with every other token in a sequence.
 
 ---
+## 📊 Self Attention
+
+```mermaid
+graph TD
+
+A[I]
+B[love]
+C[AI]
+
+A --> B
+A --> C
+
+B --> A
+B --> C
+
+C --> A
+C --> B
+
+D[Self Attention Layer]
+
+A --> D
+B --> D
+C --> D
+
+D --> E[Context Aware Representations]
+```
 
 # What Is Self-Attention?
 
