@@ -3,6 +3,27 @@
 > The component responsible for generating text.
 
 ---
+## 📊 Decoder Block
+
+```mermaid
+graph TD
+
+A[Input]
+
+A --> B[Masked Multi Head Attention]
+
+B --> C[Add and Norm]
+
+C --> D[Cross Attention]
+
+D --> E[Add and Norm]
+
+E --> F[Feed Forward]
+
+F --> G[Add and Norm]
+
+G --> H[Output]
+```
 
 # Role of Decoder
 
