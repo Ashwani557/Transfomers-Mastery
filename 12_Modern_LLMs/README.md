@@ -3,6 +3,31 @@
 > Evolution from Transformers to state-of-the-art AI systems.
 
 ---
+## 📊 Evolution of LLMs
+
+```mermaid
+graph LR
+
+A[Transformer 2017]
+
+A --> B[BERT]
+
+A --> C[GPT]
+
+C --> D[GPT 2]
+
+D --> E[GPT 3]
+
+E --> F[GPT 4]
+
+F --> G[Modern LLMs]
+
+G --> H[Agents]
+
+G --> I[RAG]
+
+G --> J[Multimodal AI]
+```
 
 # LLM Evolution
 
