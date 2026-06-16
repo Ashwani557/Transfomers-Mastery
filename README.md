@@ -57,6 +57,44 @@ Instead of simply using libraries, we focus on:
 - [12 Modern LLMs](12_Modern_LLMs/README.md)
 - [13 Fine Tuning](13_Fine_Tuning/README.md)
 
+- ## 🚀 Learning Journey
+
+```mermaid
+graph LR
+
+A[Math]
+
+A --> B[Embeddings]
+
+B --> C[Attention]
+
+C --> D[Self Attention]
+
+D --> E[Multi Head Attention]
+
+E --> F[Encoder]
+
+F --> G[Decoder]
+
+G --> H[Transformer]
+
+H --> I[BERT]
+
+H --> J[GPT]
+
+J --> K[Modern LLMs]
+
+K --> L[Fine Tuning]
+
+L --> M[LoRA]
+
+M --> N[RLHF]
+
+N --> O[RAG]
+
+O --> P[Agents]
+```
+
 # 🎯 Learning Objectives
 
 By the end of this repository, you will understand:
