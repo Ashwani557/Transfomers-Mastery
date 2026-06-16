@@ -5,6 +5,29 @@
 OpenAI
 
 ---
+## 📊 GPT Architecture
+
+```mermaid
+graph TD
+
+A[Prompt]
+
+A --> B[Embeddings]
+
+B --> C[Decoder Layer 1]
+
+C --> D[Decoder Layer 2]
+
+D --> E[Decoder Layer N]
+
+E --> F[Linear Layer]
+
+F --> G[Softmax]
+
+G --> H[Next Token]
+
+H --> A
+```
 
 # What Is GPT?
 
