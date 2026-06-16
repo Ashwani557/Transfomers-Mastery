@@ -3,6 +3,15 @@
 > How machines convert words into numbers they can understand.
 
 ---
+## 📊 Word Embedding Pipeline
+
+```mermaid
+graph TD
+A[Text Input] --> B[Tokenization]
+B --> C[Token IDs]
+C --> D[Embedding Matrix]
+D --> E[Dense Vector Representation]
+```
 
 # Why Do We Need Embeddings?
 
