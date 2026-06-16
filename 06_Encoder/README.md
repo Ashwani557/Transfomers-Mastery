@@ -3,6 +3,23 @@
 > The component responsible for understanding and encoding input text.
 
 ---
+## 📊 Encoder Block
+
+```mermaid
+graph TD
+
+A[Input]
+
+A --> B[Multi Head Attention]
+
+B --> C[Add and Norm]
+
+C --> D[Feed Forward Network]
+
+D --> E[Add and Norm]
+
+E --> F[Output]
+```
 
 # Role of the Encoder
 
