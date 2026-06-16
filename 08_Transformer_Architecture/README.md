@@ -167,6 +167,31 @@ Add & Norm
 ```
 
 ---
+## 📊 Complete Transformer Architecture
+
+```mermaid
+graph TD
+
+A[Input Sentence]
+
+A --> B[Tokenization]
+
+B --> C[Embeddings]
+
+C --> D[Positional Encoding]
+
+D --> E[Encoder Stack]
+
+E --> F[Encoder Output]
+
+F --> G[Decoder Stack]
+
+G --> H[Linear Layer]
+
+H --> I[Softmax]
+
+I --> J[Next Token]
+```
 
 # Training Process
 
