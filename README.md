@@ -40,6 +40,22 @@ Instead of simply using libraries, we focus on:
 ✅ Building Components From Scratch
 
 ---
+## 📚 Modules
+
+- [00 Math Foundations](00_Math_Foundations/README.md)
+- [01 Why Transformers](01_Why_Transformers/README.md)
+- [02 Embeddings](02_Embeddings/README.md)
+- [03 Attention](03_Attention/README.md)
+- [04 Self Attention](04_Self_Attention/README.md)
+- [05 Multi Head Attention](05_Multi_Head_Attention/README.md)
+- [06 Encoder](06_Encoder/README.md)
+- [07 Decoder](07_Decoder/README.md)
+- [08 Transformer Architecture](08_Transformer_Architecture/README.md)
+- [09 Positional Encoding](09_Positional_Encoding/README.md)
+- [10 BERT](10_BERT/README.md)
+- [11 GPT](11_GPT/README.md)
+- [12 Modern LLMs](12_Modern_LLMs/README.md)
+- [13 Fine Tuning](13_Fine_Tuning/README.md)
 
 # 🎯 Learning Objectives
 
