@@ -3,6 +3,21 @@
 > Teaching a pre-trained model to specialize in a new task.
 
 ---
+## 📊 Fine Tuning Workflow
+
+```mermaid
+graph TD
+
+A[Pretrained Model]
+
+A --> B[Domain Dataset]
+
+B --> C[Training]
+
+C --> D[Fine Tuned Model]
+
+D --> E[Production Deployment]
+```
 
 # What Is Fine-Tuning?
 
