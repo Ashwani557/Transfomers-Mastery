@@ -3,6 +3,19 @@
 > Understanding the mathematics behind modern AI and Transformers.
 
 ---
+## 📊 Mathematical Foundations
+
+```mermaid
+graph TD
+A[Linear Algebra] --> E[Transformers]
+B[Probability] --> E
+C[Statistics] --> E
+D[Neural Networks] --> E
+
+E --> F[Attention]
+E --> G[Embeddings]
+E --> H[LLMs]
+```
 
 # Why Mathematics Matters
 
