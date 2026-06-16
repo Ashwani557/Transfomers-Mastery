@@ -5,6 +5,27 @@
 Google Research (2018)
 
 ---
+## 📊 BERT Architecture
+
+```mermaid
+graph TD
+
+A[Input Text]
+
+A --> B[Tokenization]
+
+B --> C[Embeddings]
+
+C --> D[Encoder Layer 1]
+
+D --> E[Encoder Layer 2]
+
+E --> F[Encoder Layer N]
+
+F --> G[Contextual Representation]
+
+G --> H[Classification]
+```
 
 # What Is BERT?
 
