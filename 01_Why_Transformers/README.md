@@ -3,6 +3,17 @@
 > Understanding the problem Transformers were designed to solve.
 
 ---
+## 📊 Evolution of NLP
+
+```mermaid
+graph LR
+A[RNN] --> B[LSTM]
+B --> C[GRU]
+C --> D[Attention]
+D --> E[Transformers]
+D --> F[BERT]
+D --> G[GPT]
+```
 
 # The NLP Journey
 
