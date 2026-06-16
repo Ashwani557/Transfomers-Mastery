@@ -50,6 +50,32 @@ Head 5 → Long Distance Dependencies
 Each head learns different patterns.
 
 ---
+## 📊 Multi Head Attention
+
+```mermaid
+graph TD
+
+A[Input]
+
+A --> B[Head 1]
+A --> C[Head 2]
+A --> D[Head 3]
+A --> E[Head N]
+
+B --> F[Attention]
+C --> G[Attention]
+D --> H[Attention]
+E --> I[Attention]
+
+F --> J[Concatenate]
+G --> J
+H --> J
+I --> J
+
+J --> K[Linear Layer]
+
+K --> L[Output]
+```
 
 # Architecture
 
